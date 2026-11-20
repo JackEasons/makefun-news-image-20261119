@@ -6,7 +6,7 @@
 
 One image summing up the world's news of Thursday 19 November 2026.
 
-Lead story: Trump, Xi and Putin meet in Shenzhen in the first three-way summit, issuing a joint "Declaration toward Peace" with no mention of Ukraine or Iran. Also: the top UN court rules Myanmar committed genocide against the Rohingya; Anthropic's IPO at $83 a share, valued at about $1.5 trillion; Israeli tanks push into central Gaza; Ukraine hits the Crimea bridge again and tanker attacks mount in the Strait of Hormuz.
+Lead story: Trump, Xi and Putin hold the first three-way summit in Shenzhen, issuing a joint "Declaration toward Peace" with no mention of Ukraine or Iran. Also: Cyclone Akvan forces 100,000+ evacuations in Odisha ahead of Friday landfall; the World Court rules 9-6 that Myanmar committed genocide against the Rohingya; Anthropic's $83 IPO opens at $111.50 and closes $97.17, up 17%, while US markets slide for a sixth straight session; Israeli tanks push into central Gaza; Ukraine hits the Crimea bridge a third time this week; three tankers catch fire on mines east of Hormuz; the UK pledges 1,000+ long-range drones for Ukraine; GTA VI launches worldwide; NASA confirms Voyager 1 is one light-day from Earth; and the US Senate rejects the Iran war-powers resolution 51-48. 33 stories in all, each verified against reporting of the day — see STORIES.md for every item and its source.
 
 ## Run it
 
