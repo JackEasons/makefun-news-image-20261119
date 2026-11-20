@@ -215,35 +215,35 @@ def icon_tower(d, x, y, s):
 # regions: ASIA EUROPE MIDDLE EAST AFRICA AMERICAS GLOBAL
 
 BIG = [
+    ("CYCLONE AKVAN", "100,000+ evacuated as storm bears down on Odisha",
+     "Odisha moves 100,000+ people to shelters as Severe Cyclonic Storm Akvan "
+     "closes on Gopalpur, due to cross by noon Friday, winds 90-100 km/h "
+     "gusting to 110. Schools shut in 11 districts; third cyclone in 24 days.",
+     "The Hindu / Indian Express", "ASIA", icon_cyclone),
     ("SHENZHEN SUMMIT", "Trump, Xi and Putin meet in first three-way summit",
      "Three nuclear powers meet for 80 minutes at Kylin Villa and issue a joint "
      "\"Declaration toward Peace\": UN reform, more fuel, officials' immunity, "
      "\"a nuclear war cannot be won and must never be fought\". No Ukraine or "
      "Iran mention.",
      "CNA / Al Jazeera", "ASIA", icon_summit),
-    ("CYCLONE AKVAN", "100,000+ evacuated as storm bears down on Odisha",
-     "Odisha moves 100,000+ people to shelters as Severe Cyclonic Storm Akvan "
-     "closes on Gopalpur, due to cross by noon Friday, winds 90-100 km/h "
-     "gusting to 110. Schools shut in 11 districts; third cyclone in 24 days.",
-     "The Hindu / Indian Express", "ASIA", icon_cyclone),
     ("WORLD COURT", "Myanmar guilty of genocide against the Rohingya, 9-6",
      "The International Court of Justice finds Myanmar committed genocide in "
      "Rakhine state - the first time it has held a state responsible for the "
      "crime. Myanmar and China reject the ruling; survivors call it historic.",
-     "AP / ARN News", "EUROPE", icon_scales),
+     "AP / Reuters", "EUROPE", icon_scales),
 ]
 
 SMALL = [
     ("ANTHROPIC'S $83 DEBUT", "IPO opens $111.50, closes $97.17, up 17% - largest listing on record at $81bn. (Reuters)", "AMERICAS", icon_rocket),
     ("MARKETS ROUT", "S&P 500 -2.02%, sixth straight loss; Dow -1,101, first close below 50,000. (AP)", "AMERICAS", icon_chart_down),
-    ("GAZA GROUND PUSH", "Israeli tanks push into central Gaza in a new ground operation. (ARN News)", "MIDDLE EAST", icon_tank),
-    ("CRIMEA BRIDGE HIT AGAIN", "Ukraine strikes the Crimea bridge a third time this week. (Al Jazeera)", "EUROPE", icon_bridge),
+    ("GAZA GROUND PUSH", "Israeli tanks push into central Gaza in a new ground operation. (Reuters)", "MIDDLE EAST", icon_tank),
+    ("CRIMEA BRIDGE HIT AGAIN", "Ukraine strikes the Crimea bridge a third time this week. (Reuters)", "EUROPE", icon_bridge),
     ("MINES IN THE GULF", "Three oil tankers catch fire after hitting mines east of Hormuz. (NDTV)", "ASIA", icon_tanker),
     ("1,000 DRONES FOR KYIV", "UK unveils a GBP 260m package of 1,000+ long-range strike drones. (gov.uk)", "EUROPE", icon_drone),
     ("GTA VI IS OUT", "The most awaited game in history launches on PS5 and Xbox; PSN outage first. (Rockstar)", "GLOBAL", icon_neon),
     ("VOYAGER, ONE LIGHT-DAY", "NASA confirms Voyager 1 is one light-day out - a first for any craft. (NASA)", "GLOBAL", icon_dish),
-    ("SENATE SAYS NO", "US Senate rejects the Iran war-powers resolution 51-48. (AppiSToS)", "AMERICAS", icon_dome),
-    ("STRIKE ON RIYADH", "Houthi attack hits a Riyadh tower; damage, no injuries. (ARN News)", "MIDDLE EAST", icon_tower),
+    ("SENATE SAYS NO", "US Senate rejects the Iran war-powers resolution 51-48. (Reuters)", "AMERICAS", icon_dome),
+    ("STRIKE ON RIYADH", "Houthi attack hits a Riyadh tower; damage, no injuries. (Reuters)", "MIDDLE EAST", icon_tower),
 ]
 
 BRIEFS = [
@@ -447,8 +447,8 @@ def render():
         yy += 14
 
     # footer
-    foot = ("Sources: CNA, Al Jazeera, The Hindu, Indian Express, AP, Reuters, Bloomberg, ARN News, "
-            "NDTV, gov.uk, Kyiv Post, Rockstar Games, NASA, AppiSToS. 33 stories, every one checked "
+    foot = ("Sources: CNA, Al Jazeera, The Hindu, Indian Express, AP, Reuters, Bloomberg, "
+            "NDTV, gov.uk, Kyiv Post, Rockstar Games, NASA. 33 stories, every one checked "
             "against reporting of 19 November 2026.")
     yy = 980
     for ln in wrap(foot, f_foot, CW):

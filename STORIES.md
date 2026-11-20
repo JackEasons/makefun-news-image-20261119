@@ -18,7 +18,7 @@ page says so.
 3. ICJ genocide ruling — World Court 9-6 finds Myanmar committed genocide
    against the Rohingya, first such finding against a state; Myanmar and
    China reject it.
-   Source: AP via ARN News, AppiSToS — https://www.arnnewscentre.ae/news/international/archive/2026-11/
+   Source: AP / Reuters — https://www.reuters.com/world/asia-pacific/top-un-court-finds-myanmar-committed-state-sponsored-genocide-against-muslim-2026-11-19/
 
 ## Small illustrated stories
 4. Anthropic IPO — $83 a share; opened $111.50, closed $97.17 (+17%);
@@ -28,9 +28,9 @@ page says so.
    first close below 50,000; Nasdaq -2.25%; Taiwan -3.5%.
    Source: AP
 6. Gaza ground push — Israeli tanks push into central Gaza.
-   Source: ARN News
+   Source: Reuters
 7. Crimea bridge hit again — Ukraine strikes it a third time this week.
-   Source: Al Jazeera
+   Source: Reuters — https://www.reuters.com/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/
 8. Mines in the Gulf — three oil tankers catch fire after hitting mines east
    of the Strait of Hormuz.
    Source: NDTV
@@ -42,11 +42,11 @@ page says so.
     Source: Rockstar Games — https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026
 11. Voyager, one light-day — NASA confirms Voyager 1 is one light-day from
     Earth, the first human-made object that far out (crossed Wed, confirmed Thu).
-    Source: NASA / ARN News
+    Source: NASA
 12. Senate says no — US Senate rejects the Iran war-powers resolution 51-48.
-    Source: AppiSToS
+    Source: Reuters — https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/
 13. Strike on Riyadh — Houthi attack hits a Riyadh tower; damage, no injuries.
-    Source: ARN News
+    Source: Reuters
 
 ## Briefs
 14. UK + Norway fund two Ukrainian naval craft — GBP 100m+ joint programme.
