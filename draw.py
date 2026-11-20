@@ -70,14 +70,13 @@ for txt, yy in [("THE DAY", 34), ("IN SIX STORIES", 66)]:
 hx, hy, hw, hh = 36, 140, 952, 300
 d.rectangle([hx, hy, hx + hw, hy + hh], fill=WHITE, outline=LINE, width=2)
 d.rectangle([hx, hy, hx + hw, hy + 6], fill=GOLD)
-# globe icon
+# globe icon: a clean outline globe, meridians and equator only, no blobs
 cx, cy, r = hx + 92, hy + 150, 72
-d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=NAVY2, width=5)
-d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(220, 232, 245))
-d.ellipse([cx - 28, cy - 52, cx + 30, cy + 8], fill=NAVY2)
-d.ellipse([cx - 42, cy + 22, cx + 6, cy + 58], fill=NAVY2)
-d.arc([cx - r, cy - r, cx + r, cy + r], 20, 160, fill=NAVY2, width=4)
+d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(220, 232, 245), outline=NAVY2, width=5)
+d.ellipse([cx - 30, cy - r, cx + 30, cy + r], outline=NAVY2, width=3)
 d.line([cx - r, cy, cx + r, cy], fill=NAVY2, width=3)
+d.ellipse([cx - 58, cy - 42, cx - 42, cy - 26], fill=GOLD)
+d.ellipse([cx + 38, cy + 28, cx + 54, cy + 44], fill=GOLD)
 tx = hx + 196
 y = hy + 22
 y = kicker(tx, y, "1  •  SHENZHEN  •  THE BIG STORY")
@@ -89,8 +88,8 @@ y = para(tx, y, "Joint \u201cDeclaration toward Peace\u201d — with no mention 
 panels = [
     ("2  •  THE HAGUE", "UN court: Myanmar", "committed genocide", "The top UN court rules Myanmar committed genocide against the Rohingya.", RED),
     ("3  •  MARKETS", "Anthropic IPO", "at $83 a share", "Record debut — valued at about $1.5 trillion.", TEAL),
-    ("4  •  GAZA", "Israeli tanks push", "into central Gaza", "Aid groups score the Gaza peace plan 4 out of 26.", NAVY2),
-    ("5  •  UKRAINE & ENERGY", "Crimea bridge hit", "again; Hormuz hit", "Ukraine strikes the Crimea bridge; tankers hit in the Strait of Hormuz.", RED),
+    ("4  •  GAZA", "Israeli tanks push", "into central Gaza", "Aid groups rate the Gaza peace plan 4 out of 26.", NAVY2),
+    ("5  •  UKRAINE & ENERGY", "Crimea bridge hit", "again; tankers hit", "Ukraine strikes the Crimea bridge; tankers hit in the Strait of Hormuz.", RED),
 ]
 gx, gy = 36, 462
 cw, ch, gap = 466, 218, 20
