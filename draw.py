@@ -2,6 +2,8 @@
 """THE WORLD TODAY - Thursday 19 November 2026. One 1024x1024 front page,
 33 verified stories, drawn from scratch with PIL. No network at run time."""
 
+import os
+
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1024, 1024
@@ -453,7 +455,7 @@ def render():
         d.text((MX, yy), ln, font=f_foot, fill=GREY)
         yy += 13
 
-    img.save("entry.png", optimize=True)
+    img.save(os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png"), optimize=True)
     print("saved entry.png", img.size)
 
 
